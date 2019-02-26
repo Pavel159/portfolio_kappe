@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Single Post</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/flex.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<!-- Доп. инфо -->
+	<div id="info_box">
+		<ul>
+			<li><svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 348.077 348.077" style="enable-background:new 0 0 348.077 348.077;"
+	 xml:space="preserve">
+			<path d="M340.273,275.083l-53.755-53.761c-10.707-10.664-28.438-10.34-39.518,0.744l-27.082,27.076
+				c-1.711-0.943-3.482-1.928-5.344-2.973c-17.102-9.476-40.509-22.464-65.14-47.113c-24.704-24.701-37.704-48.144-47.209-65.257
+				c-1.003-1.813-1.964-3.561-2.913-5.221l18.176-18.149l8.936-8.947c11.097-11.1,11.403-28.826,0.721-39.521L73.39,8.194
+				C62.708-2.486,44.969-2.162,33.872,8.938l-15.15,15.237l0.414,0.411c-5.08,6.482-9.325,13.958-12.484,22.02
+				C3.74,54.28,1.927,61.603,1.098,68.941C-6,127.785,20.89,181.564,93.866,254.541c100.875,100.868,182.167,93.248,185.674,92.876
+				c7.638-0.913,14.958-2.738,22.397-5.627c7.992-3.122,15.463-7.361,21.941-12.43l0.331,0.294l15.348-15.029
+				C350.631,303.527,350.95,285.795,340.273,275.083z"/>
+</svg>
+ 9930 1234 5679</li>
+			<li><svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 511.626 511.626" style="enable-background:new 0 0 511.626 511.626;"
+	 xml:space="preserve">
+		<path d="M49.106,178.729c6.472,4.567,25.981,18.131,58.528,40.685c32.548,22.554,57.482,39.92,74.803,52.099
+			c1.903,1.335,5.946,4.237,12.131,8.71c6.186,4.476,11.326,8.093,15.416,10.852c4.093,2.758,9.041,5.852,14.849,9.277
+			c5.806,3.422,11.279,5.996,16.418,7.7c5.14,1.718,9.898,2.569,14.275,2.569h0.287h0.288c4.377,0,9.137-0.852,14.277-2.569
+			c5.137-1.704,10.615-4.281,16.416-7.7c5.804-3.429,10.752-6.52,14.845-9.277c4.093-2.759,9.229-6.376,15.417-10.852
+			c6.184-4.477,10.232-7.375,12.135-8.71c17.508-12.179,62.051-43.11,133.615-92.79c13.894-9.703,25.502-21.411,34.827-35.116
+			c9.332-13.699,13.993-28.07,13.993-43.105c0-12.564-4.523-23.319-13.565-32.264c-9.041-8.947-19.749-13.418-32.117-13.418H45.679
+			c-14.655,0-25.933,4.948-33.832,14.844C3.949,79.562,0,91.934,0,106.779c0,11.991,5.236,24.985,15.703,38.974
+			C26.169,159.743,37.307,170.736,49.106,178.729z"/>
+		<path d="M483.072,209.275c-62.424,42.251-109.824,75.087-142.177,98.501c-10.849,7.991-19.65,14.229-26.409,18.699
+			c-6.759,4.473-15.748,9.041-26.98,13.702c-11.228,4.668-21.692,6.995-31.401,6.995h-0.291h-0.287
+			c-9.707,0-20.177-2.327-31.405-6.995c-11.228-4.661-20.223-9.229-26.98-13.702c-6.755-4.47-15.559-10.708-26.407-18.699
+			c-25.697-18.842-72.995-51.68-141.896-98.501C17.987,202.047,8.375,193.762,0,184.437v226.685c0,12.57,4.471,23.319,13.418,32.265
+			c8.945,8.949,19.701,13.422,32.264,13.422h420.266c12.56,0,23.315-4.473,32.261-13.422c8.949-8.949,13.418-19.694,13.418-32.265
+			V184.437C503.441,193.569,493.927,201.854,483.072,209.275z"/>
+</svg> contact@domain.com</li>
+			<li><svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	<path d="M512,296l-96-96V56h-64v80l-96-96L0,296v16h64v160h160v-96h64v96h160V312h64V296z"/>
+</svg> street address example</li>
+		</ul>
+	</div>
+	<!-- Сайдбар -->
+	<header class="flex__jcontent_start">
+		<div class="logo main_flex__nowrap flex__jcontent_center flex__align-items_center">
+			<img src="images/logo.png" alt="">
+		</div>
+
+		<button type="button" id="menu_btn">Menu</button>
+
+		<nav class="main_nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a class="active" href="singlepost.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div class="filter">
+			<div class="title_filter main_flex__nowrap flex__jcontent_end flex__align-items_center flex__align-content_center">
+				Filter <img src="images/grid.png" alt="grid">
+			</div>
+			<ul>
+				<li><a class="active" href="#">All Works</a></li>
+				<li><a href="#">web design</a></li>
+				<li><a href="#">illustration</a></li>
+				<li><a href="#">photography</a></li>
+				<li><a href="#">wallpapers</a></li>
+				<li><a href="#">brochures</a></li>
+			</ul>
+		</div>
+
+		<div class="social_bar main_flex__nowrap flex__jcontent_end flex__align-items_center">
+			<a href="#"><img src="images/flickr.png" alt=""></a>
+			<a href="#"><img src="images/googleplus.png" alt=""></a>
+			<a href="#"><img src="images/twitter.png" alt=""></a>
+			<a href="#"><img src="images/pinterest.png" alt=""></a>
+			<a href="#"><img src="images/dribbble.png" alt=""></a>
+			<a href="#"><img src="images/behance.png" alt=""></a>
+			<a href="#"><img src="images/facebook.png" alt=""></a>
+		</div>
+
+		<p class="copyright">
+			© 2014 Kappe, All Rights Reserved
+		</p>
+	</header>
+	<!-- Контент -->
+	<main>
+		<div class="wrap white">
+			<div class="info_work_box main_flex flex__jcontent_between flex__align-items_start flex__align-content_stretch">
+				<div class="left_info line_sep">
+					<div class="img_box_work">
+						<img src="images/work.jpg" alt="">
+					</div>
+					<div class="about_work">
+						<h1>Heavy Sand - Creative Photography</h1>
+						<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+					</div>
+
+					<div class="comments">
+						<h4>5 Comments</h4>
+						<div class="list_comments">
+							<ul>
+								<li>
+									<div class="box_comment main_flex__nowrap">
+										<div class="img_comment">
+										<img src="images/staff.png" alt="">
+										</div>
+										<div class="about_comment">
+											<h5>
+												ShaneFreer
+												<span>
+													/ 58 minutes ago
+												</span>
+											</h5>
+											<p>great post brainartworks</p>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<ul>
+										<li>
+											<div class="box_comment main_flex__nowrap">
+												<div class="img_comment">
+												<img src="images/staff.png" alt="">
+												</div>
+												<div class="about_comment">
+													<h5>
+														Collis Ta’eed
+														<span>
+															/ 42 minutes ago
+														</span>
+													</h5>
+													<p>yeah i  really like it too, very useful!</p>
+												</div>
+											</div>
+										</li>
+
+										<li> 
+											<ul>
+										<li>
+											<div class="box_comment main_flex__nowrap">
+												<div class="img_comment">
+												<img src="images/staff.png" alt="">
+												</div>
+												<div class="about_comment">
+													<h5>
+														jremick
+														<span>
+															/ 22 minutes ago
+														</span>
+													</h5>
+													<p>i found this post very useful too, the comment form
+													works just perfect, keep it up guys :)
+													</p>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<ul>
+										<li>
+											<div class="box_comment main_flex__nowrap">
+												<div class="img_comment">
+												<img src="images/staff.png" alt="">
+												</div>
+												<div class="about_comment">
+													<h5>
+														joshjanssen
+														<span>
+															/ 22 minutes ago
+														</span>
+													</h5>
+													<p>yep, especially when it comes to  comment testing</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+										</li>
+									</ul>
+										</li>
+
+									</ul>
+									<ul>
+										<li>
+											<div class="box_comment main_flex__nowrap">
+												<div class="img_comment">
+												<img src="images/staff.png" alt="">
+												</div>
+												<div class="about_comment">
+													<h5>
+														stewboon
+														<span>
+															/ 22 minutes ago
+														</span>
+													</h5>
+													<p>nice job!</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+
+								</li>
+
+								<li>
+									<div class="box_comment main_flex__nowrap">
+										<div class="img_comment">
+										<img src="images/staff.png" alt="">
+										</div>
+										<div class="about_comment">
+											<h5>
+												justinfrench
+												<span>
+													/ 48 minutes ago
+												</span>
+											</h5>
+											<p>looks very promising</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="form_comment">
+						<p class="title_info">
+							Leave a Comment
+						</p>
+						<form action="" class="main_flex__nowrap">
+							<div class="left_form">
+								<div class="input main_flex__nowrap flex__align-items_center">
+									<div class="icon_form">
+										<img src="images/icon1.png" alt="">
+									</div>
+									<input type="text" placeholder="Name" name="">
+								</div>
+								<div class="input main_flex__nowrap flex__align-items_center">
+									<div class="icon_form">
+										<img src="images/icon5.png" alt="">
+									</div>
+									<input type="text" placeholder="e-mail" name="">
+								</div>
+								<div class="input main_flex__nowrap flex__align-items_center">
+									<div class="icon_form">
+										<img src="images/icon4.png" alt="">
+									</div>
+									<input type="text" placeholder="website" name="">
+								</div>
+							</div>
+
+							<div class="right_form">
+								<div class="input main_flex__nowrap flex__align-items_center">
+									<textarea placeholder="Message">
+									</textarea>
+								</div>
+								<button type="submit">
+									Post a comment
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<div class="right_info">
+					<div class="pr_info">
+						<p class="title_info">
+							Post Info
+						</p>
+						<ul>
+							<li>
+								<img src="images/icon1.png" alt="">
+							premiumlayers
+							</li>
+							<li>
+								<img src="images/icon2.png" alt="">
+							138 Likes
+							</li>
+							<li>
+								<img src="images/icon3.png" alt="">
+							25 December, 2018
+							</li>
+							<li>
+								<img src="images/icon4.png" alt="">
+							4 Comments
+							</li>
+						</ul>
+					</div>
+
+					<div class="tags">
+						<p class="title_info">
+							Tags
+						</p>
+						<div class="list_tags main_flex flex__jcontent_start flex__align-items_center">
+							<div class="tag">
+								web design 
+							</div>
+							<div class="tag">
+								photography 
+							</div>
+							<div class="tag">
+								development 
+							</div>
+							<div class="tag">
+								php 
+							</div>
+							<div class="tag">
+								ecommerce 
+							</div>
+							<div class="tag">
+								graphic 
+							</div>
+						</div>
+					</div>
+
+					<div class="archives">
+						<p class="title_info">
+							Archives
+						</p>
+						<ul>
+							<li>December 2018 (24)</li>
+							<li>November 2018 (7)</li>
+							<li>September 2018 (2)</li>
+							<li>March 2018 (22)</li>
+							<li>January 2018 (11)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</main>
+	<!-- Кнопка инфо -->
+	<div id="info">
+		<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="45.999px" height="45.999px" viewBox="0 0 45.999 45.999" style="enable-background:new 0 0 45.999 45.999;"
+	 xml:space="preserve">
+		<path d="M39.264,6.736c-8.982-8.981-23.545-8.982-32.528,0c-8.982,8.982-8.981,23.545,0,32.528c8.982,8.98,23.545,8.981,32.528,0
+			C48.245,30.281,48.244,15.719,39.264,6.736z M25.999,33c0,1.657-1.343,3-3,3s-3-1.343-3-3V21c0-1.657,1.343-3,3-3s3,1.343,3,3V33z
+			 M22.946,15.872c-1.728,0-2.88-1.224-2.844-2.735c-0.036-1.584,1.116-2.771,2.879-2.771c1.764,0,2.88,1.188,2.917,2.771
+			C25.897,14.648,24.746,15.872,22.946,15.872z"/>
+</svg>
+
+	</div>
+	
+</body>
+</html>
